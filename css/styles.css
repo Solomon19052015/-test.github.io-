@@ -160,6 +160,7 @@ margin: 0;
 .menuToggle{
     width: 30px;
     height: 30px;
+    display: none;
 }
 .product_Acb{
     margin-top: 80px;
