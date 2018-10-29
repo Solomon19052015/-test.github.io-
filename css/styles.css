@@ -433,6 +433,7 @@ margin-top: 60px;
     background: var(--gr);
     color: rgb(255, 255, 255);
     margin-top: 20px;
+    -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     border-radius: 3px;
     padding: 0 20px;
@@ -472,7 +473,13 @@ p.ratingSeller{
 .ratingStars{
     width: 100%;
    
-   justify-content: center;
+   -webkit-box-pack: center;
+   
+       -ms-flex-pack: center;
+   
+           justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
 }
@@ -488,14 +495,21 @@ p.ratingSeller{
 
 .reviews{
     border: 1px solid var(--gr);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 45px;
     width: 170px;
     border-radius: 3px;
     font-size: 13px;
     margin: 30px auto;
+    -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
    color: var(--ser);
    font-weight: 600;
@@ -523,7 +537,8 @@ a.reviews:hover{
     height: 2px;
     border-top: 1px solid transparent;
     border-radius: 100%;
-    box-shadow:  0px 6px 5px 1px var(--gr);
+    -webkit-box-shadow:  0px 6px 5px 1px var(--gr);
+            box-shadow:  0px 6px 5px 1px var(--gr);
    top: -20px;
    
 
@@ -537,18 +552,35 @@ a.reviews:hover{
 .footer .foot_cont{
     width: 95%;
     margin: 50px  auto 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
  
-    justify-content: space-between;
-    align-items: flex-start;
+    -webkit-box-pack: justify;
+ 
+        -ms-flex-pack: justify;
+ 
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 
 }
 .footer .foot_cont .left_foot{
     width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 
 }
 .footer .foot_cont .left_foot p{
@@ -596,6 +628,7 @@ a.reviews:hover{
 }
 .footer .foot_cont .right_foot .contacts a{
     color: var(--gr);
+    -webkit-transition:  all 0.3s ease;
     transition:  all 0.3s ease;
 }
 .footer .foot_cont .right_foot .contacts a:hover{
