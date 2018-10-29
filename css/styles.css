@@ -426,7 +426,7 @@ margin-top: 60px;
 }
 
 .buy .btnBuy{
-    width: 260px;
+    width: 270px;
     height: 65px;
     font-size: 14px;
     border: none;
@@ -435,6 +435,7 @@ margin-top: 60px;
     margin-top: 20px;
     transition: all 0.3s ease;
     border-radius: 3px;
+    padding: 0 20px;
 }
 
 .buy .btnBuy:hover{
