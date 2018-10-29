@@ -28,7 +28,15 @@
     body .acb_cont .right_cont table{
         width: 100%;
     }
-   
+   body .footer .foot_cont{
+       flex-flow: column nowrap;
+   }
+   body .footer .foot_cont .left_foot, body .footer .foot_cont .right_foot{
+       width: 100%;
+   }
+   body .footer .logo{
+       margin: 0 auto;
+   }
 }
 
 
@@ -91,7 +99,7 @@
     }
     body .nav ul li{
         flex-flow: column nowrap;
-        transform: translateX(-200%); 
+        transform: translateX(-100%); 
        opacity: 0;
        background:  rgba(255, 255, 255, 0.904);
       
@@ -119,6 +127,9 @@
         border: none;
     }
 
+    body .descriptCompany{
+        width: 95%;
+    }
 
 }
 
@@ -126,6 +137,14 @@
    
 body .acb_cont .left_cont img{
     width: 80%;
+}
+
+body .buy p{
+    width: 90%;
+}
+body .buy .btnBuy{
+    width: 80%;
+    margin: 15px auto;
 }
 
 

@@ -228,7 +228,7 @@ margin: 0;
 }
 .nav ul li a:hover{
     color: var(--gr);
-    text-shadow: 0px 0px 0.1px rgb(135, 206, 129)
+    text-shadow: 0px 0px 0.1px rgb(135, 206, 129);
 }
 .toggleMenu{
     width: 40px;
@@ -409,4 +409,196 @@ margin-top: 60px;
     color: var(--gr);
     font-weight: 600;
     display: inline-block;
+}
+
+.buy{
+    margin-top: 50px;
+    width: 100%;
+    color: var(--ser);
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.buy p{
+    width: 70%;
+    margin: 20px auto;
+}
+
+.buy .btnBuy{
+    width: 260px;
+    height: 65px;
+    font-size: 14px;
+    border: none;
+    background: var(--gr);
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+}
+
+.buy .btnBuy:hover{
+    background:  rgb(19, 134, 58);
+}
+.rating{
+    width: 100%;
+    color: var(--ser);
+    text-align: center;
+    margin: 50px 0;
+  
+}
+.rating p,.rating h4{
+    margin: 0;
+}
+
+.nameCompany{
+    font-size: 18px;
+}
+p.unp{
+    font-size: 12px;
+    margin-top: 3px;
+}
+p.slogan{
+    font-size: 14px;
+    margin-top: 3px;
+}
+p.ratingSeller{
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.ratingStars{
+    width: 100%;
+   
+   justify-content: center;
+    display: flex;
+
+}
+.stars{
+    background: url(img/Stars.svg) no-repeat;
+    height: 20px;
+    width: 20px;
+    background-position: -20px;
+}
+.ratingStars .s5{
+    background-position: 0px;
+}
+
+.reviews{
+    border: 1px solid var(--gr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 170px;
+    border-radius: 3px;
+    font-size: 13px;
+    margin: 30px auto;
+    transition: all 0.3s ease;
+   color: var(--ser);
+   font-weight: 600;
+
+   
+}
+
+a.reviews:hover{
+    background: var(--gr);
+    color: #fff;
+}
+
+.descriptCompany{
+    width: 80%;
+    margin: 0px auto;
+    color: var(--ser);
+    font-size: 13px;
+}
+.descriptCompany:before{
+    content: '';
+    display: block;
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+    height: 2px;
+    border-top: 1px solid transparent;
+    border-radius: 100%;
+    box-shadow:  0px 6px 5px 1px var(--gr);
+   top: -20px;
+   
+
+}
+
+.footer{
+    margin-top: 120px;
+    border-top: 1px solid #eaeaea
+}
+
+.footer .foot_cont{
+    width: 95%;
+    margin: 50px  auto 10px;
+    display: flex;
+ 
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.footer .foot_cont .left_foot{
+    width: 40%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.footer .foot_cont .left_foot p{
+    font-size: 14px;
+    color: var(--ser);
+
+}
+
+.footer .foot_cont .left_foot .logo{
+    min-width: 150px;
+    width: 180px;
+    background-size: contain;
+    background-position: top center;
+    height: auto;
+    min-height: 90px;
+}
+.footer .foot_cont .left_foot .logo h4{
+   
+    margin: 0;
+    padding: 60px 0 0px 0;
+    text-align: center;
+    color: var(--ser);
+    font-size: 12px;
+    font-weight: 600;
+   
+
+
+}
+.footer .foot_cont .right_foot{
+    width: 60%;
+}
+
+.footer .foot_cont .right_foot .contacts{
+    text-align: center;
+    color: var(--ser);
+
+}
+.footer .foot_cont .right_foot .contacts p{
+    margin: 0;
+}
+.footer .foot_cont .right_foot .contacts iframe{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+.footer .foot_cont .right_foot .contacts a{
+    color: var(--gr);
+    transition:  all 0.3s ease;
+}
+.footer .foot_cont .right_foot .contacts a:hover{
+    color:   rgb(19, 134, 58);
+    text-shadow: 0px 0px 0.1px rgb(135, 206, 129)
+   
 }
